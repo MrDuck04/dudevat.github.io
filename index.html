@@ -2,21 +2,26 @@
 <html lang = "en">
     <head>
         <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device - width, initial-scale = 1.0">
         <title>Abror Mahir - Portfolio</title>
+        <link rel = "stylesheet" href = "style.css">
     </head>
     <body>
         <!--Header-->
         <h1>Hello, Welcome to my website ✨</h1>
         <p>Under Construction!!! Stay tuned love ❤️</p>
         <!--About Me-->
-        <h2>About me</h2>
-        <p>I am Abror Mahir. I am a Student in Brac University of CSE Department.
+        <section id = "about">
+            <h2>About me</h2>
+            <p>I am Abror Mahir. I am a Student in Brac University of CSE Department.
             This is my first time using html and css to develop the front end of 
             a webpage. I will share my progress and my portfolio as my journey
             continues. Please keep me in your prayers.</p>
-        <p>p.s. I love you Tonami ❤️</p>
+            <p>p.s. I love you Tonami ❤️</p>
+        </section>
+        
         <!-- Interests Section -->
-            <section>
+            <section id = "interests">
               <h3>Interests</h3>
               <ul>
                 <li>Reading</li>
@@ -27,7 +32,7 @@
             </section>
             
             <!-- Skills Section -->
-            <section>
+            <section id = "skills">
               <h3>Skills</h3>
               <ul>
                 <li>Python – Basics and OOP</li>
@@ -39,29 +44,62 @@
             </section>
 
             <!--Projects Section-->
-            <section>
+            <section  id = "projects">
+                <section id = "ongoing">
                 <h2>My Ongoing projects</h2>
-                <div>
+                <article>
                     <h3>My portfolio website</h3>
                     <p>My website that you are currently on</p>
-                    <a href = "https://mrduck04.github.io/dudevat.github.io/">
+                    <a href = "https://mrduck04.github.io/dudevat.github.io/" target = "-blank"
+                        rel = "noopener noreferrer">
                         You are here 😇</a>
-                </div>
-                
+                </article>
+                </section>
+
+                <section id = "completed">
                 <h2>My Completed Projects</h2>
-                <div>
+                <article>
                     <h3>Flappy Bird Game: </h3>
                     <p>The good old flappy bird, nothing new but its a start </p>
-                    <a href = "https://github.com/MrDuck04/Flappy-Bird-Game">
+                    <a href = "https://github.com/MrDuck04/Flappy-Bird-Game" target = "-blank"
+                        rel = "noopener noreferrer">
                         Check it out on my github page
                     </a>
-                </div>
+                </article>
+                </section>
+                
+                <section id = "ideas">
                 <h2>Project Ideas</h2>
                 <ul>
-                    <li></li>
+                    <li>Pacman Game</li>
+                    <li>Weather app</li>
+                    <li>Texting app</li>
                 </ul>
-                
+                </section>
             </section>
+            
+        <!--Contact Section-->
+            <section id = "contact">
+            <h2>Conatct Me</h2>    
+                <p>Feel free to stay connected in my social medias,
+                     if you want to make a project, or suggestions.
+                    Keep me in your prayers.</p>
+                <ul>
+                    <li>Gamil: <a href = "mailto:abror.mahir@g.bracu.ac.bd" 
+                            target = "_blank" rel = "noopener noreferrer"
+                            >abror.mahir@g.bracu.ac.bd</a></li>
+                    <li>Github: <a href = "https://github.com/MrDuck04" target = "_blank"
+                            rel = "noopener norefferer">github.com/MrDuck04</a></li>
+                    <li>Facebook: <a href = "https://www.facebook.com/abror.mahir/">abror.mahir</a></li>
+                </ul>
+            </section>
+        <footer>
+        <p>Contact: <a href="mailto:abror.mahir@email.com">abror.mahir@bracu.ac.bd</a></p>
+        <p>
+            <a href="https://github.com/MrDuck04" target="_blank" rel="noopener noreferrer">GitHub</a> |
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+        </footer>
 
     </body>
 </html>
