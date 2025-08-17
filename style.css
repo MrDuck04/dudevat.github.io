@@ -45,6 +45,36 @@ section {
     border-radius: var(--radius);
     box-shadow: var(--shadow);
 }
+.card {
+    background: #fdfdfd;
+    border-radius: 25px;
+    padding: 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: left;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    border: 8px solid #d47b8b;  /* nice accent border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+    border-color: #c45d75; /* darker border on hover */
+}
 
 section h2 {
     margin-bottom: 15px;
