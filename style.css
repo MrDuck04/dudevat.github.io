@@ -71,7 +71,7 @@ section {
 
 /* Hover effect */
 .card:hover {
-    transform: translateY(-6px) scale(1.02);
+    transform: translateY(-4px) scale(1.02);
     box-shadow: 0 12px 28px rgba(0,0,0,0.15);
     border-color: #c45d75; /* darker border on hover */
 }
