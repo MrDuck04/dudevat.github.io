@@ -2,6 +2,7 @@
 :root{
   --bg-color: #FDFBFC;
   --text-color: #5E535E;
+  --header-color: #5E535E;
   --accent-color: #DBA9D3;
   --card-bg: #fff;
   --shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -26,6 +27,7 @@ header{
   text-align: center;
   padding: 40px 20px;
   background: var(--card-bg);
+  color: var(--header-color);
   box-shadow:var(--shadow);
   border-radius:var(--radius);
   margin: 20px auto;
@@ -34,7 +36,7 @@ header{
 
 header p {
   font-size: 1.1rem;
-  color: #555;
+  color: var(--header-color);
 }
 
 section {
@@ -53,7 +55,7 @@ section {
     margin: 40px auto;
     text-align: left;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    border: 8px solid #d47b8b;  /* nice accent border */
+    border: 8px solid #DBA9D3;  /* nice accent border */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -65,7 +67,7 @@ section {
 
 .card p {
     font-size: 1rem;
-    color: #666;
+    color: var(--header-color);
     margin-bottom: 10px;
 }
 
@@ -73,13 +75,13 @@ section {
 .card:hover {
     transform: translateY(-4px) scale(1.02);
     box-shadow: 0 12px 28px rgba(0,0,0,0.15);
-    border-color: #c45d75; /* darker border on hover */
+    border-color: var(--header-color); /* darker border on hover */
 }
 
 section h2 {
     margin-bottom: 15px;
     font-size: 1.8rem;
-    color: var(--accent-color);
+    color: var(--header-color);
 }
 
 /* Project cards */
